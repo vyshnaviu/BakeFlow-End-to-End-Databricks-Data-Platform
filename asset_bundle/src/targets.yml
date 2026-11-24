@@ -1,0 +1,31 @@
+targets :
+
+  dev :
+    mode: development
+    default : true
+    presets:
+      name_prefix: 'dev-${workspace.current_user.short_name}-'
+    workspace:
+      root_path: /Workspace/Bakehouse_DABs_Project/DEV/${workspace.current_user.short_name}
+    variables:
+      catalog : "bakehouse_dev"
+
+  qa :
+    mode: production
+    default : false
+    presets:
+      name_prefix: 'qa-'
+    workspace:
+      root_path: /Workspace/Bakehouse_DABs_Project/QA/${workspace.current_user.short_name}
+    variables:
+      catalog : "bakehouse_qa"
+
+  prod :
+    mode: production
+    default : false
+    presets:
+      name_prefix: 'prod-'
+    workspace:
+      root_path: /Workspace/Bakehouse_DABs_Project/PROD/${workspace.current_user.short_name}
+    variables:
+      catalog : "bakehouse_prod"
