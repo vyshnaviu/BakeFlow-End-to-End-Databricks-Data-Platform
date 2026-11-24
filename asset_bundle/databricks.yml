@@ -12,12 +12,12 @@ include:
   - src/*.yml
 
 permissions:
-  - user_name: XXXX
+  - user_name: vyshnaviusthela@gmail.com
     level : CAN_MANAGE
 
 
 workspace:
-  - host : XXXX
+  - host : https://dbc-c0359b59-c1e9.cloud.databricks.com
 
 
     
