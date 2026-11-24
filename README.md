@@ -5,9 +5,13 @@ An end-to-end data pipeline on Databricks: CSV files go through Bronze, Silver a
 
 ## **How it works**
 **Source**: Databricks Bakehouse sample data (CSV), copied into a Volume by Azure Data Factory.
+
 **Batch control:** each run opens a batch and closes it at the end.
+
 **Bronze, Silver, Gold**: Auto Loader ingestion, AUTO CDC for history (SCD1 for customers, SCD2 for suppliers and franchises), and a star schema in Gold.
+
 **Data quality**: row counts, null keys and duplicate keys are checked per batch and saved in dq_checks.
+
 **Consumption**: an AI/BI dashboard and a Genie space on the Gold tables.
 
 
