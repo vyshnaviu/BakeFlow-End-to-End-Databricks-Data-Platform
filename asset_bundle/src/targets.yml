@@ -11,7 +11,7 @@ targets :
       catalog : "bakehouse_dev"
 
   qa :
-    mode: qa
+    mode: production
     default : false
     presets:
       name_prefix: 'qa-'
