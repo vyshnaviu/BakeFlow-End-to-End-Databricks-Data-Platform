@@ -1,0 +1,27 @@
+variables :
+  catalog :
+    description: This is the name of catalog
+    default : bakehouse_dev
+
+  brz_schema:
+    description: Bronze Schema
+    default : brz
+
+  slv_schema:
+    description: Silver schema
+    default : slv
+  
+  gld_schema:
+    description: Gold Schema
+    default : gld 
+  
+  meta_schema:
+    description: Metadata schema 
+    default : p_metadata
+
+  notification_email:
+    description : Job Failure Mail
+    default: vyshnaviusthela@gmail.com
+
+
+  
