@@ -9,6 +9,12 @@ targets :
       root_path: /Workspace/Bakehouse_DABs_Project/DEV/${workspace.current_user.short_name}
     variables:
       catalog : "bakehouse_dev"
+    permissions:
+      - user_name : yashaswinivustela@gmail.com
+        level : CAN_RUN
+
+      - user_name: vyshnaviusthela@gmail.com
+        level : CAN_MANAGE
 
   qa :
     mode: qa
