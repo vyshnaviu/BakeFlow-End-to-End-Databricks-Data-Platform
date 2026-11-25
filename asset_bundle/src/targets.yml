@@ -17,7 +17,7 @@ targets :
         level : CAN_MANAGE
 
   qa :
-    mode: qa
+    mode: production
     default : false
     presets:
       name_prefix: 'qa-'
