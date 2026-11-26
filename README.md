@@ -1,4 +1,4 @@
-# **BakeFlow: Databricks Lakehouse Data Platform**
+# **BakeFlow – End-to-End Databricks Data Platform**
 
 An end-to-end data pipeline on Databricks: CSV files go through Bronze, Silver and Gold layers under batch control, every run is audited for data quality, and the results feed a dashboard and a Genie space. Deployed to dev, qa and prod with Databricks Asset Bundles.
 
